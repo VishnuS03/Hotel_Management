@@ -1,0 +1,59 @@
+.section__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .section__header {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .section__description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Specific styles for the About section */
+  .about__container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .about__image img {
+    width:200%;
+    height: 150%;
+  margin: auto;
+  border-radius: 5px;
+  }
+  
+  .about__image {
+    flex: 1;
+  }
+  
+  .about__content {
+    flex: 2;
+    padding: 20px;
+    margin-left: 25%;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--primary-color-dark);
+  }

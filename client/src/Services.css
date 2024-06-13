@@ -1,0 +1,95 @@
+
+.service {
+    background-image: url('C:\Users\vishn\OneDrive\Desktop\Hotel_Management\client\public\service.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .service__container {
+    padding-block: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .service__content {
+    grid-column: 1/3;
+    padding: 2rem 4rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .service__list {
+    list-style: none;
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .service__list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+  }
+  
+  .service__list span {
+    padding: 5px 12px;
+    font-size: 1.75rem;
+    color: var(--text-dark);
+    background-color: var(--primary-color);
+    border-radius: 100%;
+  }
+  
+  .service__list li:nth-child(1) span {
+    color: #fb923c;
+    background-color: #ffedd5;
+  }
+  
+  .service__list li:nth-child(2) span {
+    color: #6b7280;
+    background-color: #e5e7eb;
+  }
+  
+  .service__list li:nth-child(3) span {
+    color: #c084fc;
+    background-color: #f3e8ff;
+  }
+  
+  .service__list li:nth-child(4) span {
+    color: #fb7185;
+    background-color: #ffe4e6;
+  }
+  
+
+  
+.banner__content {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .banner__card {
+    text-align: center;
+    flex: 1 1 180px;
+  }
+  
+  .banner__card h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+  
+  .banner__card p {
+    color: var(--text-light);
+  }
+  
